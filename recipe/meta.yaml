@@ -1,5 +1,5 @@
 {% set name = "kotsu" %}
-{% set version = "0.3.2" %}
+{% set version = "0.3.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/kotsu-{{ version }}.tar.gz
-  sha256: 194fa84672bec8ea475a7b691049dec9473e729e5984360e96cf4d69b5226859
+  sha256: b344cb3ad0a6ba1f1ffea90ba2d53749273a9851b1651f3dfbb1b25b33f464ac
 
 build:
   noarch: python
